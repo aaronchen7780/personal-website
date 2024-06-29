@@ -5,6 +5,7 @@
     --card-bg-color: #2c2c2c;
     --hover-color: #4a4a4a;
 }
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: var(--bg-color);
@@ -13,16 +14,19 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 60px 20px;
 }
+
 .header {
     display: flex;
     align-items: center;
     margin-bottom: 80px;
 }
+
 .photo {
     width: 200px;
     height: 200px;
@@ -41,29 +45,32 @@ body {
 .photo img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
-
 
 .intro {
     flex-grow: 1;
 }
+
 h1 {
     font-size: 3.5em;
     margin: 0 0 10px 0;
     letter-spacing: 1px;
 }
+
 .tagline {
     font-size: 1.5em;
     color: var(--accent-color);
     margin-bottom: 20px;
     font-weight: 300;
 }
+
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
 }
+
 .grid-item {
     background-color: var(--card-bg-color);
     padding: 40px;
@@ -80,16 +87,27 @@ h1 {
     min-height: 180px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
+
 .grid-item:hover {
     background-color: var(--hover-color);
     transform: scale(1.08);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
 }
+
 .grid-item i {
     font-size: 2.5em;
     margin-bottom: 15px;
     color: var(--accent-color);
 }
+
+.grid-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
 .section {
     background-color: var(--card-bg-color);
     padding: 30px;
@@ -97,14 +115,17 @@ h1 {
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
+
 h2 {
     color: var(--accent-color);
     font-size: 1.8em;
     margin-top: 40px;
 }
+
 ul {
     padding-left: 20px;
 }
+
 .back-link {
     display: inline-block;
     margin-top: 30px;
@@ -112,17 +133,19 @@ ul {
     text-decoration: none;
     font-weight: bold;
 }
+
 .back-link:hover {
     text-decoration: underline;
 }
+
 .pdf-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Adjust height as needed */
+    height: 100vh;
 }
 
 .pdf-container object {
-    width: 70%; /* Adjust width as needed */
-    height: 90vh
+    width: 70%;
+    height: 90vh;
 }
