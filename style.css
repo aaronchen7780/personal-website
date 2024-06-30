@@ -37,7 +37,6 @@ body {
     justify-content: center;
     align-items: center;
     margin-right: 60px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .photo img {
@@ -57,13 +56,14 @@ h1 {
 }
 
 h2 {
-    margin: 0 0 -10 0;
+    margin: 0 0 20 0;
     letter-spacing: 1px;
     color: var(--accent-color);
 }
 
 ul {
     padding-left: 20px;
+    padding-top: 0px;
     margin-top: 0;
 }
 
@@ -75,7 +75,7 @@ ul {
 }
 
 .section-title {
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     color: var(--accent-color);
 }
 
@@ -129,6 +129,12 @@ ul {
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.section h2 {
+    margin: 0 0 0 0;
+    letter-spacing: 1px;
+    color: var(--accent-color);
 }
 
 .certifications h3 {
