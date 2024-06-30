@@ -4,6 +4,9 @@
     --accent-color: #242424;
     --card-bg-color: #4a4a4a;
     --hover-color: #686868;
+    --button-bg-color: #4a4a4a;
+    --button-text-color: #ffffff;
+    --button-hover-bg-color: #686868;
 }
 
 body {
@@ -47,6 +50,7 @@ body {
 
 .intro {
     flex-grow: 1;
+    font-size: 1.1em;
 }
 
 h1 {
@@ -72,6 +76,50 @@ ul {
     color: var(--accent-color);
     margin-bottom: 20px;
     font-weight: 300;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.button {
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    padding: 15px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 1.1em;
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-icon {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 8px;
+    margin-right: 10px;
+}
+
+.button:first-child {
+    margin-left: 0;
+}
+
+.button:last-child {
+    margin-right: 0;
+}
+
+.button:hover {
+    background-color: var(--button-hover-color);
+    transform: scale(1.06);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 }
 
 .section-title {
@@ -129,6 +177,10 @@ ul {
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.section {
+    font-size: 1.1em;
 }
 
 .section h2 {
