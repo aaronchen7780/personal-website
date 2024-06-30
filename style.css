@@ -27,7 +27,7 @@ body {
 .header {
     display: flex;
     align-items: center;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 .photo {
@@ -104,8 +104,8 @@ ul {
 .button-icon {
     width: 24px;
     height: 24px;
-    margin-bottom: 8px;
-    margin-right: 10px;
+    margin-bottom: 2px;
+    margin-right: 12px;
 }
 
 .button:first-child {
@@ -117,7 +117,7 @@ ul {
 }
 
 .button:hover {
-    background-color: var(--button-hover-color);
+    background-color: var(--button-hover-bg-color);
     transform: scale(1.06);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 }
