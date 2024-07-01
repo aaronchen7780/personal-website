@@ -2,11 +2,11 @@
     --bg-color: #f0f0f0;
     --text-color: #242424;
     --accent-color: #242424;
-    --card-bg-color: #575757;
-    --hover-color: #767676;
-    --button-bg-color: #575757;
+    --card-bg-color: #525252;
+    --hover-color: #717171;
+    --button-bg-color: #525252;
     --button-text-color: #ffffff;
-    --button-hover-bg-color: #767676;
+    --button-hover-bg-color: #717171;
 }
 
 body {
