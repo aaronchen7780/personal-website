@@ -172,13 +172,6 @@ ul {
     margin-bottom: 20px;
 }
 
-.certifications {
-    background-color: var(--card-bg-color);
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-
 .section {
     font-size: 1.05em;
 }
@@ -187,17 +180,4 @@ ul {
     margin: 0 0 0 0;
     letter-spacing: 1px;
     color: var(--accent-color);
-}
-
-.certifications h3 {
-    margin-bottom: 5px;
-}
-
-.certifications a {
-    color: var(--accent-color);
-    text-decoration: none;
-}
-
-.certifications a:hover {
-    text-decoration: underline;
 }
